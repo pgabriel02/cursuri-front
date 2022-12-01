@@ -25,7 +25,7 @@ const Footer = () => {
                         </a>
                     </Link>
                 </div>
-                <p className='text-white text-xl font-semibold mt-5'>Powered by <a className='duration-200 hover:text-blue-500' href='https://petregabriel.online' target='_blank'>Petre Gabriel</a></p>
+                <p className='text-white text-xl font-semibold mt-5'>Powered by <a className='duration-200 hover:text-blue-500' href='https://petregabriel.online' target='_blank' rel='noreferrer'>Petre Gabriel</a></p>
             </div>
             <ul className='flex flex-col gap-2 w-[40%]'>
                 <li className='text-white text-lg hover:text-blue-500 duration-200 font-medium'>
