@@ -10,17 +10,17 @@ const Footer = () => {
                 <h2 className='font-semibold text-white text-xl md:text-2xl'>Curs</h2>
                 <div className='flex gap-2'>
                     <Link href='https://facebook.com'>
-                        <a target='_blank'>
+                        <a target='_blank' rel='noreferrer' >
                             <FaFacebook className='text-white text-xl hover:text-blue-500 duration-200 hover:scale-105' />
                         </a>
                     </Link>
                     <Link href='https://facebook.com'>
-                        <a target='_blank'>
+                        <a target='_blank' rel='noreferrer'>
                             <FaInstagram className='text-white text-xl hover:text-blue-500 duration-200 hover:scale-105' />
                         </a>
                     </Link>
                     <Link href='https://twitter.com'>
-                        <a target='_blank'>
+                        <a target='_blank' rel='noreferrer'>
                             <FaTwitter className='text-white text-xl hover:text-blue-500 duration-200 hover:scale-105' />
                         </a>
                     </Link>
